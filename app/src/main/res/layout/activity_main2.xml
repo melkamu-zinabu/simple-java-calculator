@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/languagesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your preferred programming language:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp" />
+
+    <CheckBox
+        android:id="@+id/javaCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:textSize="16sp"
+        android:layout_below="@id/languagesTextView"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/cPlusPlusCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C++"
+        android:textSize="16sp"
+        android:layout_below="@id/javaCheckBox"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/cSharpCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C#"
+        android:textSize="16sp"
+        android:layout_below="@id/cPlusPlusCheckBox"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/pythonCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Python"
+        android:textSize="16sp"
+        android:layout_below="@id/cSharpCheckBox"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/javascriptCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JavaScript"
+        android:textSize="16sp"
+        android:layout_below="@id/pythonCheckBox"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="18sp"
+        android:layout_below="@id/javascriptCheckBox"
+        android:background="@drawable/rounded_button"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="32dp" />
+
+</RelativeLayout>
