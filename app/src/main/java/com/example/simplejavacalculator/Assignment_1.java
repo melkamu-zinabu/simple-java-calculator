@@ -12,13 +12,13 @@ import android.widget.CheckBox;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity2 extends AppCompatActivity {
+public class Assignment_1 extends AppCompatActivity {
     private CheckBox javaCheckBox, cPlusPlusCheckBox, cSharpCheckBox, pythonCheckBox, javascriptCheckBox;
     private Button submitButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.assignment_1);
         javaCheckBox = findViewById(R.id.javaCheckBox);
         cPlusPlusCheckBox = findViewById(R.id.cPlusPlusCheckBox);
         cSharpCheckBox = findViewById(R.id.cSharpCheckBox);

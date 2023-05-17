@@ -14,7 +14,7 @@
             android:id="@+id/languagesTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Select your preferred programming language:"
+            android:text="Select your favourite programming language:"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_gravity="center_horizontal"
@@ -32,7 +32,7 @@
                 android:id="@+id/javaCheckBox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Java"
+                android:text="Javascript"
                 android:textSize="16sp"
                 />
 
@@ -40,7 +40,7 @@
                 android:id="@+id/cPlusPlusCheckBox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="C++"
+                android:text="C"
                 android:textSize="16sp"
                 />
 
@@ -64,7 +64,7 @@
                 android:id="@+id/javascriptCheckBox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="JavaScript"
+                android:text="Java"
                 android:textSize="16sp"
                 />
 

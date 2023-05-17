@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class calculator extends AppCompatActivity {
     TextView result,operator;
     EditText Number1, Number2;
     Button plus,minus,multiply,divide,equality;
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.calculator);
         operator=findViewById(R.id.operator);
         plus=findViewById(R.id.plus);
         minus=findViewById(R.id.minus);
